@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <title>Aviator-predictor</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+            color: #333;
+        }
+        .container {
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .container p {
+            margin: 10px 0;
+            line-height: 1.5;
+        }
+        .logIn {
+            background: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .logIn h2 {
+            color: #007BFF;
+            margin-bottom: 15px;
+        }
+        .logIn span {
+            display: block;
+            margin: 5px 0;
+            font-size: 14px;
+            color: #555;
+        }
+        .button {
+            text-align: center;
+        }
+        button {
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+        <div class="container" id="contain">
+   <p>Use the provided log in details in this page to log in to the aviator predictor app</p>
+       <div class="button">
+        <button id="Bt">OK</button></a>
+    </div>
+    </div>
+    <section id="sect" style="display:none;">
+    <div class="container" id="container">
+        <p>This is the most effective AVIATOR predictor app</p><br />
+        <p>Take this opportunity and try your luck!</p><br />
+        <p>HINT: STAKE MORE TO WIN BIG</p>
+        <img src="aviator.jpg" alt="aviator" width="300px" height="100px"/>
+    </div>
+    <div class="logIn" id="logIn">
+        <h2>LogIn details</h2> 
+        <span><strong>Phone: 0793540008</strong></span><br />
+        <span><strong>Password: 22745538</strong></span>
+    </div>
+    <div class="button">
+        <a href="https://www.kwikbet.co.ke/aviator/">
+        <button>LOG IN</button></a>
+    </div>
+    </section>
+    <script type="text/javascript" charset="utf-8">
+        const Bt = document.getElementById('Bt');
+        const Sect = document.getElementById('sect');
+        const Container = document.getElementById('contain');
+        Bt.addEventListener('click',()=>{
+          Container.style.display = 'none';
+          Sect.style.display = 'block';
+        });
+    </script>
+</body>
+</html>
